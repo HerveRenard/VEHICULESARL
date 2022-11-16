@@ -65,11 +65,6 @@ class Users implements UserInterface, PasswordAuthenticatedUserInterface
      */
     private $created_at;
 
-    /**
-     * @ORM\Column(type="string", length=255)
-     */
-    private $jj;
-
     public function getId(): ?int
     {
         return $this->id;
@@ -228,18 +223,6 @@ class Users implements UserInterface, PasswordAuthenticatedUserInterface
     public function setCreatedAt(\DateTimeImmutable $created_at): self
     {
         $this->created_at = $created_at;
-
-        return $this;
-    }
-
-    public function getJj(): ?string
-    {
-        return $this->jj;
-    }
-
-    public function setJj(string $jj): self
-    {
-        $this->jj = $jj;
 
         return $this;
     }
