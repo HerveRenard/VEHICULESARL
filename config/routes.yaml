@@ -1,5 +1,5 @@
 index:
    path: /
-   controller: App\Controller\ClientController::index
+   controller: App\Controller\AgenceController::index
 # api_login_check:
 #     path: /api/login_check

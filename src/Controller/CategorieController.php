@@ -88,3 +88,14 @@ class CategorieController extends AbstractController
         return $this->redirectToRoute('app_categorie_index', [], Response::HTTP_SEE_OTHER);
     }
 }
+// ('nom')
+//             ->add('prenom')
+//             ->add('tel')
+//             ->add('email')
+//             ->add('numPermis')
+//             ->add('pieceIdentity')
+//             ->add('ville')
+//             ->add('commune')
+//             ->add('quartie')
+//             ->add('civility')
+//             ->add('dateDN')
