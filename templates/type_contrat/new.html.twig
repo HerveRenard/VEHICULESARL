@@ -1,0 +1,11 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}New TypeContrat{% endblock %}
+
+{% block body %}
+    <h1>Create new TypeContrat</h1>
+
+    {{ include('type_contrat/_form.html.twig') }}
+
+    <a href="{{ path('app_type_contrat_index') }}">back to list</a>
+{% endblock %}
